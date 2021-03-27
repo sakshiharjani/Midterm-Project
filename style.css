@@ -70,7 +70,7 @@ body, html {
 }
 
 #pictureGrid {
-  width: 100%;
+
   height: auto;
   align-self: start;
   padding-left: 16%;
@@ -159,18 +159,20 @@ body, html {
 #aboutHeader {
   color: #000000;
   text-shadow: 2px 1px grey;
-  margin-left: 230px;
+  margin-left: 20vw;
   font-style: oblique;
   font-weight: 500;
   font-size: 10vmin;
 }
 
 #aboutParagraphs {
-  width: 900px;
+  width: 60vw;
   box-shadow: 10px 10px 2px grey;
   background-color: #DCDCDC;
+  padding-top: 1px;
+  padding-bottom: 1px;
   padding-left: 10px;
-  margin-left: 280px;
+  margin-left: 25vw;
   margin-top: 100px;
   margin-bottom: 100px;
   /* margin-right: 200px; */
@@ -183,23 +185,42 @@ body, html {
   display: flex;
   flex-wrap: wrap;
   margin-top: 10vmin;
-  margin-left: 40vmin;
+  margin-left: 15vmax;
   display: flex;
   align-items: flex-start;
 }
 
 #mainPictureVertical {
-  width: 450px;
-  height: 600px;
+  width: 33vw;
+  min-width: 270px;
+  height: 44vw;
+  min-height: 360px;
   border-style: inset;
   border-width: 15px;
   border-color: #404040;
   box-shadow: 10px 10px 5px grey;
 }
 
+#photoVertical {
+  width: 33vw;
+  min-width: 270px;
+  height: 44vw;
+  min-height: 360px;
+}
+
+#photoHorizontal {
+  width: 35vw;
+  min-width: 340px;
+  height: 26vw;
+  min-height: 260px;
+}
+
 #mainPictureHorizontal {
-  width: 500px;
-  height: 376px;
+  /* margin-left: -65px; */
+  width: 35vw;
+  min-width: 340px;
+  height: 26vw;
+  min-height: 260px;
   border-style: inset;
   border-width: 15px;
   border-color: #404040;
@@ -207,25 +228,38 @@ body, html {
 }
 
 #factsContent {
-  width: 400px;
-  height: 500px;
-  font-size: 2vmin;
-  margin-top: 5vmin;
-  margin-left: 25vmin;
-  margin-bottom: 2vmin;
+  width: 30vw;
+  min-width: 250px;
+
+  /* height: 65vh; */
+  font-size: 2vh;
+  font-weight: 300;
+  margin-top: 10vmax;
+  margin-left: 8vmin;
+  margin-bottom: 2vh;
+  padding-bottom: 2vh;
+  padding-right: 4vw;
+  padding-left: 1vw;
   /* margin-right: 20vmin; */
   line-height: 24px;
   background-color: #DCDCDC;
   box-shadow: 10px 10px 5px grey;
 }
 
+
+
+
 #factsContentHorizontal {
-  width: 400px;
-  height: 470px;
-  font-size: 2vmin;
-  margin-top: 3vmin;
-  margin-left: 25vmin;
-  margin-bottom: 2vmin;
+  width: 30vw;
+  min-width: 260px;
+  /* height: 470px; */
+  font-size: 2vh;
+  margin-top: 20px;
+  margin-left: 8vw;
+  margin-bottom: 2vh;
+  padding-bottom: 2vh;
+  padding-right: 2vw;
+
   /* margin-right: 20vmin; */
   line-height: 24px;
   background-color: #DCDCDC;
@@ -234,10 +268,12 @@ body, html {
 
 #lineOne, #lineTwo, #lineThree, #lineFour, #lineFive {
   margin-left: 8px;
-  width: 382px;
+  width: 30vw;
+  min-width: 250px;
 }
 #lineOne {
-  font-size: 4vmin;
+  font-size: 4vh;
+
 
 }
 
@@ -249,12 +285,13 @@ body, html {
 
 #lineTwo {
   font-style: italic;
-  font-size: 5vmin;
+  font-size: 5vh;
+  line-height: 38px;
 }
 
 #lineThree, #lineFour, #lineFive {
   font-weight: 500;
-  font-size: 2vmin;
+  font-size: 2vh;
   text-align: justify;
 
 }
@@ -524,7 +561,9 @@ h2 {
   color: black;
   text-decoration: none;
   margin-top: 5%;;
-  margin-left: 95%;
+  /* margin-left: 92%; */
+  display: flex;
+  justify-content: flex-end;
 }
 
 #nextButton:hover {
