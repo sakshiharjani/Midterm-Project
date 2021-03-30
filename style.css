@@ -34,7 +34,7 @@ body, html {
   padding-bottom: 10vmin;
   text-decoration: none;
   color: white;
-  text-shadow: 3px 2px grey;
+
 }
 
 .navButton:hover {
@@ -51,7 +51,6 @@ body, html {
 }
 
 #header {
-  text-shadow: 3px 2px grey;
   font-weight: 600;
   font-style: normal;
   font-size: 6vmin;
@@ -60,7 +59,6 @@ body, html {
 }
 
 #tagLine {
-  text-shadow: 1px 1px grey;
   /* margin-left: 77vmin; */
   font-style: italic;
   text-decoration: none;
@@ -102,7 +100,7 @@ body, html {
   display: flex;
   justify-content: space-between;
   /* box-shadow found on w3schools */
-  box-shadow: 12px 12px 5px grey;
+  box-shadow: 10px 10px 5px grey;
   border-style: inset;
   border-width: 15px;
   border-color: #404040;
@@ -111,7 +109,7 @@ body, html {
 
 .row1:hover{
   cursor: pointer;
-  box-shadow: 0px 0px;
+  box-shadow: 15px 15px 10px grey;
 }
 
 .row1:active{
@@ -128,14 +126,14 @@ body, html {
   object-fit: cover;
   display: flex;
   justify-content: space-between;
-  box-shadow: 12px 12px 5px grey;
+  box-shadow: 10px 10px 5px grey;
   border-style: inset;
   border-width: 15px;
   border-color: #404040;
 }
  .row2:hover{
    cursor: pointer;
-   box-shadow: 0px 0px;
+   box-shadow: 15px 15px 10px grey;
  }
  .row2:active{
    cursor:pointer;
@@ -150,7 +148,7 @@ body, html {
   object-fit: cover;
   display: flex;
   justify-content: space-between;
-  box-shadow: 12px 12px 5px grey;
+  box-shadow: 10px 10px 5px grey;
   border-style: inset;
   border-width: 15px;
   border-color: #404040;
@@ -158,7 +156,7 @@ body, html {
 
 .row3:hover{
   cursor: pointer;
-  box-shadow: 0px 0px;
+  box-shadow: 15px 15px 10px grey;
 }
 .row3:active{
   cursor:pointer;
@@ -209,6 +207,7 @@ body, html {
   border-width: 15px;
   border-color: #404040;
   box-shadow: 10px 10px 5px grey;
+  margin-bottom: 5%;
 }
 
 #photoVertical {
@@ -235,6 +234,7 @@ body, html {
   border-width: 15px;
   border-color: #404040;
   box-shadow: 10px 10px 5px grey;
+  margin-bottom: 5%;
 }
 
 #factsContent {
@@ -567,18 +567,39 @@ h2 {
   border-color: #000000;
 }
 
+/* #bottomButtons {
+  display: flex;
+
+} */
+
+
+#backButton {
+  color: black;
+  text-decoration: none;
+  margin-top: 0%;
+  /* margin-left: 0px; */
+  margin-left: 20%;
+  /* display: flex;
+  justify-content: flex-start; */
+}
+
+#backButton:hover {
+  text-decoration: underline;
+}
+
 #nextButton {
   color: black;
   text-decoration: none;
   margin-top: 5%;;
-  /* margin-left: 92%; */
-  display: flex;
-  justify-content: flex-end;
+  margin-left: 63%;
+
 }
 
 #nextButton:hover {
   text-decoration: underline;
 }
+
+
 
 #footer {
   width: 100%;
